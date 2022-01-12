@@ -123,6 +123,7 @@ void __fastcall Button1Click(HWND hWnd)
 {
 	// DllHook::SetHook();
 	std::wstring szPath =  _T("C://Users//lisongqian//source//repos//Ldll//x64//Debug//Ldll.dll");
+	// std::wstring szPath =  _T("C:\\Windows\\System32\\Ldll.dll");
 	std::wstring errMsg = L"";
 	WCHAR processName[50];
 	SendMessage(GetDlgItem(hWnd, IDM_OUTBOX), WM_GETTEXT, sizeof(processName) / sizeof(wchar_t),
